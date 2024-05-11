@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
+#menü {
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo {
+    font-size: 30px;
+    line-height: 80px;
+    color: #003666;
+    float: left;
+}
+
+nav {
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #003666;
+}
+
+#anasayfa {
+
+    height: 600px;
+    background-image: url(r1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black {
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#içerik {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+    color: white;
+    font-size: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 200px;
+}
+
+#oyunlar {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card {
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+
+.baslikcard {
+    font-size: 15px;
+    color: #003666;
+}
+
+.cardp {
+    color: #888;
+}
+
+.card:hover {
+    border: 2px solid gray;
+}
+#iletisim{
+    background: url(r6.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#h3iletisim{
+    color: orange;
+    text-align: left;
+}
+#iletisimopak{
+    background: rgba(255,255,255,0.2);
+    padding: 20px 10 px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 750px;
+    
+}
+#formgroup{
+    width: 700px;
+    float: center;
+    height: 500px;
+    text-align: center;
+}
+#solform{
+    width: 50%;
+    float:left;
+    padding-right: 5px;
+}
+#sagform{
+    width: 50%;
+    float:right;
+    padding-left: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+textarea{
+    font-family: Arial;
+}
+input[type="submit"]{
+    cursor:pointer;
+    background-color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: #495057;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+#up{
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: bold 35px;
+    padding: 9px 12px;
+    margin-top: 20px;
+
+}

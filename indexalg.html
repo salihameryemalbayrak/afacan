@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>algoritma</title>
+    <link rel="stylesheet" href="stylesalg.css">
+</head>
+<body>
+    <div class="header" style="height:20px">BİLGİSAYAR MÜHENDİSLİĞİ</div>
+    <div class="container">
+        <div class="toolbox" id="toolbox">
+            <div class="tool" id="yukari"  draggable="true" ondragstart="drag(event, 'Yukarı')">Yukarı</div>
+            <div class="tool" id="sag" draggable="true" ondragstart="drag(event, 'Sağ')">Sağ</div>
+            <div class="tool" id="sol" draggable="true" ondragstart="drag(event, 'Sol')">Sol</div>
+            <div class="tool" id="asagi" draggable="true" ondragstart="drag(event, 'Aşağı')">Aşağı</div>
+        </div>
+
+        <div class="drop-area" id="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="screen">
+            <img src="baslat.png" class="baslat" alt="baslat" onclick="startMoving()">
+            <div class="kanvaskonteyner">
+              <canvas id="myCanvas" width="450" height="450"></canvas>
+            </div>
+
+        </div>
+       
+    </div>
+    <script src="scriptalg.js"></script>
+</body>
+</html>
